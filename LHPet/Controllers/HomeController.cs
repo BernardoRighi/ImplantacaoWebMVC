@@ -16,7 +16,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         // Instâncias de clientes
-        Cliente cliente1 = new Cliente(01, "William Moraes", "499.229.260-75", "william.m.silva6@aluno.senai.br", "Jack");
+        Cliente cliente1 = new Cliente(01, "José Tonhão", "499.229.260-75", "jose@tonhao.com", "Pandora");
         Cliente cliente2 = new Cliente(02, "William Henry Gates III", "039.618.250-09", "bill@microsoft.com", "Bug");
         Cliente cliente3 = new Cliente(03, "Ada Lovelace", "800.777.920-50", "ada@ada.language.com", "Byron");
         Cliente cliente4 = new Cliente(04, "Linus Torvalds", "933.622.400-03", "torvalds@osdl.org", "Pinguim");
